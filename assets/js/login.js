@@ -88,7 +88,7 @@ $(function () {
         // 将token字符串存储到localstorage中，要的时候就从中拿就是
         localStorage.setItem('token',res.token)
         // 登录成功后就跳转到首页
-        // location.href='/index.html'  
+        location.href='/index.html'  
       }
       
     })
